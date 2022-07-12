@@ -280,7 +280,8 @@
                     </address>
                 </div>
                 <div class="social">
-                    <h2 class="social-title">присоединяйтесь</h2>
+                    <b class="social-title">присоединяйтесь</b>
+    
                     <ul class="social-join list">
                         <li>
                             <a href="#" class="social-join-links">
@@ -312,6 +313,20 @@
                         </li>
                     </ul>
                 </div>
+                <div class="join">
+                    <b class="join-title">Подпишитесь на рассылку</b>
+                    <form class="join-form" name="join-form" autocomplete="on">
+                        <label for="mail-input" class="vissually-hidden"></label>
+                        <input type="email" name="mail-input" placeholder="E-mail" required class="mail-input" />
+                        <button type="submit" class="submit-btn">
+                            Подписаться
+                            <svg class="submit-icon" width="24" height="24" aria-hidden="true">
+                                <use href="./image/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+    
             </div>
         </div>
     </footer>
